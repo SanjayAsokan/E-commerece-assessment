@@ -1,0 +1,6 @@
+CustomerID,TotalValue,Quantity,Cluster,Cluster_3D
+1,500,50,2,2
+2,700,70,0,2
+3,300,30,1,1
+4,400,40,1,1
+5,600,60,0,0
