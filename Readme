@@ -1,0 +1,26 @@
+# Customer Segmentation Project
+
+## Overview
+This project focuses on segmenting customers based on their purchasing behavior using clustering algorithms. The dataset contains various features such as `TotalValue`, `Quantity`, `Region`, and more. The goal is to identify different customer groups for targeted marketing strategies.
+
+## Approach
+
+### 1. **Data Preprocessing**
+   - Cleaned the dataset by handling missing values and encoding categorical features.
+   - Standardized numerical columns to ensure they are on the same scale before clustering.
+
+### 2. **Exploratory Data Analysis (EDA)**
+   - Performed various statistical analyses to understand the distribution and correlation of the features.
+   - Visualized distributions, correlations, and outliers using plots.
+
+### 3. **Clustering (KMeans)**
+   - Applied KMeans clustering algorithm to segment customers into different groups.
+   - Determined the optimal number of clusters using the Elbow method.
+   - Analyzed the cluster profiles to understand the characteristics of each customer group.
+
+### 4. **Key Insights**
+   - **Cluster 1**: Represents high-value customers who make frequent and high-value purchases.
+   - **Cluster 2**: Represents low-value customers with occasional purchases.
+   - **Cluster 3**: Represents moderate-value customers with consistent purchases.
+   - Actionable recommendations based on these insights include targeted marketing campaigns for high-value clusters.
+
